@@ -24,7 +24,11 @@ export default function Header() {
 
           <div className="block md:hidden">
             <button onClick={() => setFechado(!fechado)}>
-              {fechado ? <Menu /> : <X />}
+              {fechado ? (
+                <Menu className="text-[var(--primaria)]" />
+              ) : (
+                <X className="text-[var(--primaria)]" />
+              )}
             </button>
           </div>
           <nav
