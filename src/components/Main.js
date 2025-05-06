@@ -19,7 +19,7 @@ export default function Main() {
     );
   }, []);
   return (
-    <main className="relative bg-[var(--bg-mobile-image)] md:bg-[var(--bg-desktop-image)] bg-no-repeat bg-cover bg-center flex flex-col gap-8 items-center py-36 px-16 main-with-overlay z-1 text-white ">
+    <main className="relative bg-[image:var(--bg-mobile-image)] md:bg-[image:var(--bg-desktop-image)] bg-no-repeat bg-cover bg-center flex flex-col gap-8 items-center py-48 px-16 main-with-overlay z-1 text-white ">
       <h1 className="text-3xl md:text-4xl text-shadow-sm text-balance text-center font-source font-bold">
         Seu pet em boas mãos!
       </h1>
