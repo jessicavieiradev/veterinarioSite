@@ -3,7 +3,7 @@ const nextConfig = {
   assetPrefix: process.env.NODE_ENV === "production" ? "/veterinarioSite" : "",
   basePath: process.env.NODE_ENV === "production" ? "/veterinarioSite" : "",
   output: "export",
-  reactStrictMode: true,
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
