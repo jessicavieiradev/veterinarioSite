@@ -15,7 +15,7 @@ export default function Header() {
         <div className="w-full md:w-2/3 flex justify-between items-center ">
           <div className="relative w-28 h-12">
             <Image
-              src="/../../public/logo.png"
+              src="../../public/logo.png"
               alt="logo petvet"
               fill
               className="object-contain"
