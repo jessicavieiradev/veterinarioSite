@@ -24,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="relative w-32 h-32 bg-white rounded-full">
           <Image
-            src="/logo.png"
+            src="./logo.png"
             alt="logo petvet"
             fill
             className="object-contain p-4"
