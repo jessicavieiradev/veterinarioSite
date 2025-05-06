@@ -3,13 +3,10 @@ import React from "react";
 
 export default function QuemSomos() {
   return (
-    <section
-      id="quemsomos"
-      className="container mx-auto items-center flex flex-col-reverse lg:flex-row px-4 py-8 md:py-24 md:px-16 gap-4"
-    >
+    <section id="quemsomos" className="container mx-auto items-center flex flex-col-reverse lg:flex-row px-4 py-8 md:py-24 md:px-16 gap-4">
       <div className="relative min-h-[280px] w-full lg:w-1/2">
         <Image
-          src="../../public/quemsomos.jpg"
+          src="/quemsomos.jpg"
           alt="mao segurando patinha de cao"
           fill
           className="object-coover rounded-sm inset-0"
