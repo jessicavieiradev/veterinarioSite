@@ -9,7 +9,7 @@ export default function Contato() {
       <div className="container mx-auto flex gap-4 p-4 md:px-20">
         <div className="relative min-h-[280px] w-1/2 hidden md:block">
           <Image
-            src="/contato.jpg"
+            src="../../public/contato.jpg"
             alt="filhote de cao"
             fill
             className="object-cover rounded-sm inset-0"
