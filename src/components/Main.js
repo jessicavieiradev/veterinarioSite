@@ -1,9 +1,11 @@
 import React from "react";
 import Button from "./Button";
+import mainMobile from "../../public/mainMobile.jpg";
+import mainvet from "../../public/mainvet.png";
 
 export default function Main() {
   return (
-    <main className="relative bg-no-repeat bg-cover bg-center flex flex-col gap-8 items-center py-36 px-16 main-with-overlay z-1 text-white md:bg-main-desktop bg-main-mobile">
+    <main className="relative bg-no-repeat bg-cover bg-center flex flex-col gap-8 items-center py-36 px-16 main-with-overlay z-1 text-white md:bg-[url('/mainvet.jpg')] bg-[url('/mainMobile.jpg')]">
       <h1 className="text-3xl md:text-4xl text-shadow-sm text-balance text-center font-source font-bold">
         Seu pet em boas mãos!
       </h1>
