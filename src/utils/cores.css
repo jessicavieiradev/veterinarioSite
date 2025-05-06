@@ -1,0 +1,18 @@
+:root{
+    --primaria: #33a1fd;
+    --secundaria: #f79824;
+    --terciaria: #2f4858;
+    --texto:#023047;
+}
+
+.primaria{
+    color: var(--primaria);
+}
+
+.secundaria{
+    color: var(--secundaria);
+}
+
+.terciaria{
+    color: var(--terciaria);
+}
